@@ -1,0 +1,15 @@
+{
+	"name": "healthcare-datafactory-project",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fdce42fd-d22d-46a6-901b-4ff99501f7ad",
+		"tenantId": "e6543eee-c237-4dea-95f1-be164916bdc1"
+	}
+}
