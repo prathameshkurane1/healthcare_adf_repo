@@ -1,0 +1,19 @@
+{
+	"name": "LS_AzureDatabricks",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-7405614015620756.16.azuredatabricks.net",
+			"accessToken": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_AzureKeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "adb-tokan"
+			},
+			"existingClusterId": "1028-153524-5w914cd7"
+		}
+	}
+}
